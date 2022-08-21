@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="text-align:center">Product Page</h1>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div >
+  <img src="https://cdn.pixabay.com/photo/2016/11/23/06/57/isolated-t-shirt-1852114_1280.png" alt="Shirt" width="700" height="800" style="float:left">
+</div>
+<div>
+  <h2>Green Cotton T-shirt</h2>
+  <p style="color:grey">Shirts</p>
+  <span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star-half-full "></span>
+<p>Rs. 400  <s style="color:grey">Rs.800</s> <span style="color:green">50% off</span></p>
+  <p>This is The Store's Sage Green Oversized T-Shirt. Crafted from 100% cotton, this oversized t-shirt for men is your go-to choice for every casual occasion as it keeps you at ease through every season.
+100% Original Products.Pay on delivery is available.Easy 30 days returns and exchanges.Try & Buy is also available.</p>
+<p>
+<table border="0">
+<tr>
+    <th>Color</th>
+    <td> Green</td>
+    
+</tr>
+<tr>
+    <th>Availability</th>
+    <td> 3 in stock</td>
+    
+</tr>
+<tr>
+    <th>Select Size</th>
+    <td><input type="radio" name="size">Small</td>
+    <td><input type="radio" name="size">Medium</td>
+    <td><input type="radio" name="size">Large</td>
+    
+    
+</tr>
+
+    <tr>
+    <th>Quantity</th>
+    <td>
+    <select name="quantity" id="cars">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  
+</select>
+</td>
+    
+</tr>
+</table>
+ </p>
+ <p>
+ <button style="background-color:blue;color:white" onclick="Buy()">Buy Now</button>
+ <button  onclick="Cart()">Add to Cart </button>
+ </p>
+</div>
+<script>
+    const Buy = () => {
+          document.write(" Thank you for buying our product!!");   
+    }
+    const Cart = () => {
+          document.write(" Added to cart");  
+    }
+  </script>
+</body>
+</html>
